@@ -7,7 +7,7 @@
 #include <ctype.h>
 #include <unistd.h>
 
-__asm__(".symver memcpy ,memcpy@GLIBC_2.2.5");
+//__asm__(".symver memcpy ,memcpy@GLIBC_2.2.5");
 
 int parser_script(void *pbuf, int script_len, FILE *hfile);
 //------------------------------------------------------------------------------------------------------------
